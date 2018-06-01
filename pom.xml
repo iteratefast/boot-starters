@@ -6,7 +6,11 @@
 
     <groupId>iteratefast.top</groupId>
     <artifactId>boot-starters</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>restful-spring-boot-starter</module>
+    </modules>
 
 
 </project>
