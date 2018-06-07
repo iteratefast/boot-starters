@@ -80,16 +80,6 @@ public class ControllerAdviceExceptionHandler {
 		return resp;
 	}
 
-	// @ExceptionHandler(HttpMessageNotReadableException.class)
-	// @ResponseBody
-	// Resp<Object> handleException(HttpMessageNotReadableException error) {
-	// Resp<Object> resp = new Resp<>();
-	// resp.setSuccess(false);
-	// resp.setErrorCode(BizErrors.SYS_ERR_INTERNAL.getCode() + "");
-	// resp.setErrorMsg(BizErrors.SYS_ERR_INTERNAL.getMessage());
-	// resp.setErrorDescription(error.getMessage());
-	// return resp;
-	// }
 
 	@ExceptionHandler(Exception.class)
 	@ResponseBody
@@ -101,16 +91,5 @@ public class ControllerAdviceExceptionHandler {
 		resp.setErrorDescription(error.getMessage());
 		return resp;
 	}
-
-	// @ExceptionHandler(Exception.class)
-	// @ResponseBody
-	// Resp<Object> handleException(Exception error) {
-	// Resp<Object> resp = new Resp<>();
-	// resp.setSuccess(false);
-	// resp.setErrorCode(BizErrors.SYS_ERR_INTERNAL.getCode() + "");
-	// resp.setErrorMsg(error.getMessage());
-	// resp.setErrorDescription(BizErrors.SYS_ERR_INTERNAL.getDescription());
-	// return resp;
-	// }
 
 }
