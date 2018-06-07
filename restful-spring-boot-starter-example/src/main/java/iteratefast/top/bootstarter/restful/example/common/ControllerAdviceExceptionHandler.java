@@ -13,6 +13,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 import iteratefast.top.bootstarter.restful.error.BizError;
 import iteratefast.top.bootstarter.restful.error.BizErrors;
@@ -80,7 +81,18 @@ public class ControllerAdviceExceptionHandler {
 		return resp;
 	}
 
-
+	@ExceptionHandler(NoHandlerFoundException.class)
+	@ResponseBody
+	Resp<Object> handleException(NoHandlerFoundException error) {
+		Resp<Object> resp = new Resp<>();
+		resp.setSuccess(false);
+		resp.setErrorCode(BizErrors.SYS_ERR_API_NOT_FUND.getCode() + "");
+		resp.setErrorMsg(BizErrors.SYS_ERR_API_NOT_FUND.getMessage());
+		resp.setErrorDescription(error.getMessage());
+		return resp;
+	}
+	
+	
 	@ExceptionHandler(Exception.class)
 	@ResponseBody
 	Resp<Object> handleException(Exception error) {
