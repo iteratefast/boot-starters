@@ -92,7 +92,7 @@ public PagingResult<City> pageable(){
 
 **例3:** 返回系统错误:
 
-SysErrors.SYS_ERR_INTERNAL是starter内置的一个系统异常。每个系统异常定义了这个错误的错误码，和异常消息：
+每个系统异常定义了这个错误的错误码，和异常消息：
 
 ```
 public interface SysErrors {
