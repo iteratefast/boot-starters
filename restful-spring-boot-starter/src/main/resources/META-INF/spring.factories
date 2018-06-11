@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=iteratefast.top.bootstarter.restful.validator.handler.ControllerAdviceExceptionHandler
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=iteratefast.top.bootstarter.restful.validator.conf.ValidatorConfiguration
