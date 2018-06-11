@@ -74,7 +74,7 @@ public interface CityRepository extends Repository<City, Long> {
 }
 ```
 
-我们可以通过**PagingResult.of(page)**方法封装我们的分页数据响应结果:
+我们可以通过 **PagingResult.of(page)** 方法封装我们的分页数据响应结果:
 
 ```java
 @Autowired
@@ -106,7 +106,7 @@ public interface SysErrors {
 
 更多情况下，我们还要告诉API使用者具体发生了什么，而不仅仅提供一个错误码。
 
-BizError对象提供了withDescription方法以便我们创建对应错误常量对象的**拷贝**，并且为其discription属性赋值:
+BizError对象提供了withDescription方法以便我们创建对应错误常量对象的 **拷贝**，并且为其discription属性赋值:
 
 ```java
 BizError error = SysErrors.SYS_ERR_INTERNAL.withDescription("这是错误描述");
