@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.example.common;
+package iteratefast.top.bootstarter.restful.validator.handler;
 
 import java.util.ArrayList;
 import java.util.List;
