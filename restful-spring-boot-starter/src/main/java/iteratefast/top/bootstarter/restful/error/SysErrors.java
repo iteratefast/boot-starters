@@ -3,7 +3,7 @@ package iteratefast.top.bootstarter.restful.error;
 /**
  * Created by cz on 2018-5-11.
  */
-public class BizErrors {
+public class SysErrors {
     public static final BizError SYS_ERR_BAD_REQUEST = new BizError(400,"Bad Request");
     public static final BizError SYS_ERR_UNAUTHORIZED = new BizError(401,"Unauthorized");
     public static final BizError SYS_ERR_VALIDATION_ERROR = new BizError(403,"Validation Error");
