@@ -1,7 +1,7 @@
 package iteratefast.top.bootstarter.restful.vo;
 
 import iteratefast.top.bootstarter.restful.error.BizError;
-import iteratefast.top.bootstarter.restful.error.BizErrors;
+import iteratefast.top.bootstarter.restful.error.SysErrors;
 
 import java.io.Serializable;
 
@@ -11,11 +11,29 @@ import java.io.Serializable;
  */
 public class Resp<T> implements Serializable{
     private static final long serialVersionUID = 678807724492040902L;
-
+    /**
+     * 是否成功
+     */
     boolean success = true;
+
+    /**
+     * 正常的结果
+     */
     T result;
+
+    /**
+     * 错误码
+     */
     String errorCode;
+
+    /**
+     * 错误描述
+     */
     String errorDescription;
+
+    /**
+     * 错误消息
+     */
     String errorMsg;
 
     /**
@@ -45,7 +63,7 @@ public class Resp<T> implements Serializable{
      * @return
      */
     public static Resp error(Exception e){
-        BizError bizError = BizErrors.SYS_ERR_INTERNAL;
+        BizError bizError = SysErrors.SYS_ERR_INTERNAL;
         if(e instanceof BizError){
             bizError = (BizError)e;
         }
