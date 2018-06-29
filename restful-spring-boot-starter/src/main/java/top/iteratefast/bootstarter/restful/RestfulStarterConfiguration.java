@@ -1,10 +1,10 @@
-package iteratefast.top.bootstarter.restful;
+package top.iteratefast.bootstarter.restful;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
 
-import iteratefast.top.bootstarter.restful.validator.handler.ControllerAdviceExceptionHandler;
+import top.iteratefast.bootstarter.restful.validator.handler.ControllerAdviceExceptionHandler;
 
 @Configuration
 @Import({ ControllerAdviceExceptionHandler.class })

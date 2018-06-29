@@ -5,8 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>restful-spring-boot-starter</artifactId>
-    <groupId>iteratefast.top</groupId>
+    <groupId>top.iteratefast</groupId>
     <version>1.0.0</version>
+    <name>restful-spring-boot-starter</name>
+    <description>A boot starter project for RESTFUL api</description>
+    <url>https://github.com/iteratefast/boot-starters/tree/master/restful-spring-boot-starter</url>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.validator.handler;
+package top.iteratefast.bootstarter.restful.validator.handler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,14 +15,13 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-import iteratefast.top.bootstarter.restful.error.BizError;
-import iteratefast.top.bootstarter.restful.error.SysErrors;
-import iteratefast.top.bootstarter.restful.utils.JsonUtils;
-import iteratefast.top.bootstarter.restful.vo.Resp;
+import top.iteratefast.bootstarter.restful.error.BizError;
+import top.iteratefast.bootstarter.restful.utils.JsonUtils;
+import top.iteratefast.bootstarter.restful.vo.Resp;
 
-import static iteratefast.top.bootstarter.restful.error.SysErrors.SYS_ERR_API_NOT_FUND;
-import static iteratefast.top.bootstarter.restful.error.SysErrors.SYS_ERR_INTERNAL;
-import static iteratefast.top.bootstarter.restful.error.SysErrors.SYS_ERR_VALIDATION_ERROR;
+import static top.iteratefast.bootstarter.restful.error.SysErrors.SYS_ERR_API_NOT_FUND;
+import static top.iteratefast.bootstarter.restful.error.SysErrors.SYS_ERR_INTERNAL;
+import static top.iteratefast.bootstarter.restful.error.SysErrors.SYS_ERR_VALIDATION_ERROR;
 
 @ControllerAdvice
 public class ControllerAdviceExceptionHandler {

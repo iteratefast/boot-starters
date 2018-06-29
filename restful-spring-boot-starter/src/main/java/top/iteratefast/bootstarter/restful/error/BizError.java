@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.error;
+package top.iteratefast.bootstarter.restful.error;
 
 /**
  * 描述一个系统错误

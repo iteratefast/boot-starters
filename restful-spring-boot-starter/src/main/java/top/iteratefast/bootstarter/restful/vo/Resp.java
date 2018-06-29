@@ -1,7 +1,7 @@
-package iteratefast.top.bootstarter.restful.vo;
+package top.iteratefast.bootstarter.restful.vo;
 
-import iteratefast.top.bootstarter.restful.error.BizError;
-import iteratefast.top.bootstarter.restful.error.SysErrors;
+import top.iteratefast.bootstarter.restful.error.BizError;
+import top.iteratefast.bootstarter.restful.error.SysErrors;
 
 import java.io.Serializable;
 

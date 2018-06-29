@@ -1,8 +1,8 @@
-package iteratefast.top.bootstarter.restful.example.vo;
+package top.iteratefast.bootstarter.restful.example.vo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import iteratefast.top.bootstarter.restful.vo.Pagination;
+import top.iteratefast.bootstarter.restful.vo.Pagination;
 
 @ApiModel(description = "homePage分页查询Vo")
 public class HomePageVo extends Pagination {

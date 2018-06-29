@@ -94,7 +94,7 @@ public PagingResult<City> pageable(){
 
 每个系统异常定义了这个错误的错误码，和异常消息：
 
-```
+```java
 public interface SysErrors {
     BizError SYS_ERR_BAD_REQUEST = new BizError(400,"Bad Request");
     BizError SYS_ERR_UNAUTHORIZED = new BizError(401,"Unauthorized");

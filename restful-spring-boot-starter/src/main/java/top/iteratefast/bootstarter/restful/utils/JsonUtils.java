@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.utils;
+package top.iteratefast.bootstarter.restful.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

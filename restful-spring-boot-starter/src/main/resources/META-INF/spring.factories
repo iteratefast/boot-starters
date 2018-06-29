@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=iteratefast.top.bootstarter.restful.RestfulStarterConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=top.iteratefast.bootstarter.restful.RestfulStarterConfiguration

@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.example;
+package top.iteratefast.bootstarter.restful.example;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class Swagger2 {
 	@Bean
 	public Docket createRestApi() {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage("iteratefast.top.bootstarter.restful.example")).paths(PathSelectors.any()).build();
+				.apis(RequestHandlerSelectors.basePackage(Application.class.getName())).paths(PathSelectors.any()).build();
 	}
 
 	private ApiInfo apiInfo() {

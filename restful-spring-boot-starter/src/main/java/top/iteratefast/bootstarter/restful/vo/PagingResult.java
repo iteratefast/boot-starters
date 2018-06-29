@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.vo;
+package top.iteratefast.bootstarter.restful.vo;
 
 import org.springframework.data.domain.Page;
 

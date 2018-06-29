@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.example.vo;
+package top.iteratefast.bootstarter.restful.example.vo;
 
 import java.io.Serializable;
 

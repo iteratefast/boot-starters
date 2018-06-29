@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.error;
+package top.iteratefast.bootstarter.restful.error;
 
 /**
  * Created by cz on 2018-5-11.

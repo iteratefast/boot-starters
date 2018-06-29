@@ -1,4 +1,4 @@
-package iteratefast.top.bootstarter.restful.example.controller;
+package top.iteratefast.bootstarter.restful.example.controller;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
@@ -13,10 +13,10 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import iteratefast.top.bootstarter.restful.example.vo.AddVo;
-import iteratefast.top.bootstarter.restful.example.vo.HomePageVo;
-import iteratefast.top.bootstarter.restful.vo.PagingResult;
-import iteratefast.top.bootstarter.restful.vo.Resp;
+import top.iteratefast.bootstarter.restful.example.vo.AddVo;
+import top.iteratefast.bootstarter.restful.example.vo.HomePageVo;
+import top.iteratefast.bootstarter.restful.vo.PagingResult;
+import top.iteratefast.bootstarter.restful.vo.Resp;
 
 /**
  * Created by cz on 2018-6-1.
@@ -35,7 +35,7 @@ public class HelloController {
 
 	@ApiOperation("添加对象")
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
-	Resp add(@Valid @RequestBody AddVo addvo) {
+	Resp add(@RequestBody @Valid AddVo addvo) {
 		return Resp.success();
 	}
 

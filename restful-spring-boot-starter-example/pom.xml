@@ -12,12 +12,12 @@
 
 
     <artifactId>restful-spring-boot-starter-example</artifactId>
-    <groupId>iteratefast.top</groupId>
+    <groupId>top.iteratefast</groupId>
     <version>1.0</version>
 
     <dependencies>
         <dependency>
-            <groupId>iteratefast.top</groupId>
+            <groupId>top.iteratefast</groupId>
             <artifactId>restful-spring-boot-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
