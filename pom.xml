@@ -11,6 +11,8 @@
     <modules>
         <module>restful-spring-boot-starter</module>
         <module>restful-spring-boot-starter-example</module>
+        <module>myjpa-spring-boot-starter</module>
+        <module>myjpa-spring-boot-starter-example</module>
     </modules>
 
 
