@@ -17,7 +17,7 @@ public class Swagger2 {
 	@Bean
 	public Docket createRestApi() {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage(Application.class.getName())).paths(PathSelectors.any()).build();
+				.apis(RequestHandlerSelectors.basePackage("top.iteratefast.bootstarter.restful.example")).paths(PathSelectors.any()).build();
 	}
 
 	private ApiInfo apiInfo() {
