@@ -128,3 +128,7 @@ return Resp.error(new IllegalArgumentException("呃~ 你传入了错误的参数
 
 
 ##  参数校验及友好错误响应
+
+
+## 感谢
+https://github.com/chanjarster/spring-mvc-error-handling-example
