@@ -6,7 +6,7 @@
 
     <artifactId>restful-spring-boot-starter</artifactId>
     <groupId>top.iteratefast</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>restful-spring-boot-starter</name>
     <description>A boot starter project for RESTFUL api</description>
     <url>https://github.com/iteratefast/boot-starters/tree/master/restful-spring-boot-starter</url>
